@@ -50,11 +50,18 @@ table {
 body{
 	font-family: 'Montserrat', sans-serif;
 	color: #2e4255;
-	width: 100%;
+	
 
 }
 
 a{
 	color: inherit;
 	text-decoration: inherit;
+}
+
+@media (max-width: 900px){
+	body{
+		width: 100%;
+	}
+	
 }
