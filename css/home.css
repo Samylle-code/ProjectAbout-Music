@@ -3,7 +3,6 @@
 }
 
 *{
-    font-family: "Montserrat";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,17 +14,19 @@
         background-size: cover;
         height: 85vh;
         display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: flex-end;
         color: var(--text-color);
-        padding: 50px;
+        
 
 }
 
 #descriptionpg{
-    padding: 50px;
+
     text-align: left;
     max-width: 900px;
+
     
 }
 
@@ -36,4 +37,16 @@
 }
  #descriptionpg p{
     font-size: 15px;
- }
+}
+
+ @media (max-width: 900px){
+    #descriptionpg{
+        padding: 20px;
+    }
+    #descriptionpg h3{
+        font-size: 60px;
+    }
+     #descriptionpg p{
+        font-size: 10px;
+    }
+}
