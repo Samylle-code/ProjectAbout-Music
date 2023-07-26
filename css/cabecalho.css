@@ -40,7 +40,7 @@
     }
 
     .cabecalho_logo{
-        width: 70px;
+        max-width: 70px;
         padding: 1em 0;
     }
     .cabecalho_menu {
