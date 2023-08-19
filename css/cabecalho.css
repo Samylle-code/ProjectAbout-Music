@@ -1,11 +1,13 @@
 .cabecalho{
+    height: 10vw;
+    align-items: center;
     text-align: center;
     font-size: 0.7rem;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.23em;
 
-    background-color: #000f93; 
+    background-color: #73162F; 
     color: white;
 }
 
@@ -40,7 +42,7 @@
     }
 
     .cabecalho_logo{
-        max-width: 70px;
+        max-width: 100px;
         padding: 1em 0;
     }
     .cabecalho_menu {
