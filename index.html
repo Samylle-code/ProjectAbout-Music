@@ -12,30 +12,38 @@
     </head>   
     
     <body>
-    <header class="cabecalho">
-        <a href="index.html">
-            <img src="img/logo de mentira.webp" class="cabecalho_logo" title="logomarca do grupo" alt=""> 
-        </a>
-        <nav>
-            <ul class="cabecalho_menu">                
-                <li class="cabecalho_item-menu">
-                    <a href="#HOME"> HOME </a>
-                </li>
-                <li class="cabecalho_item-menu">
-                    <a href="#about"> QUEM SOMOS</a>
-                </li>
-                <li class="cabecalho_item-menu">
-                    <a href=""> AGENDA  </a>
-                </li>
-
-                <li class="cabecalho_item-menu">
-                    <a href=""> ARRECADAÇÃO </a>
-                </li>
-                <li class="cabecalho_item-menu">
-                    <a href=""> FAÇA UMA DOAÇÃO </a>
-                </li>
+    <header class="menuzao">
+        <nav class="cabecalho_menu">
+            <!-- LOGO -->
+            <div>
+                <a href="index.html">
+                    <img src="img/logo de mentira.webp" class="cabecalho_logo" title="logomarca do grupo" alt=""> 
+                </a>
+            </div>
+            <!-- NAVEGAÇÃO MENU -->
+            <ul class="nav-links">
+                <!-- CHECKBOX HACK -->
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <!-- NAVEGAÇÃO MENUS -->
+                <div class="menu">
+                    <li class="cabecalho_item-menu"><a href="/">Início</a></li>
+                    <li class="cabecalho_item-menu"><a href="/">Sobre</a></li>
+                    <li class="cabecalho_item-menu" Id="services">
+                        <a href="/">Musicos</a>
+                        <!-- MENU SUSPENSO OU DROPDOWN MENU -->
+                        <ul class="dropdown">
+                            <li class="cabecalho_item-menu"><a href="/">Violinos</a></li>
+                            <li class="cabecalho_item-menu"><a href="/">Violas</a></li>
+                            <li class="cabecalho_item-menu"><a href="/">Baixos</a></li>
+                            <li class="cabecalho_item-menu"><a href="/">Cellos</a></li>
+                        </ul>
+                    </li>
+                    <li class="cabecalho_item-menu"><a href="/">Agenda</a></li>
+                    <li class="cabecalho_item-menu"><a href="/">DOAÇÕES</a></li>
+                </div>
             </ul>
-        </nav>
+            </nav>
     </header>
     <main class="conteudo">
 
@@ -54,7 +62,7 @@
         <section class="conteudo-principal" >
             <div class="conteudo-principal-titulo">
                 <h1> Fundação Manrique</h1>
-                <h3> Descubra o Propósito da Fundação Octeto Manrique: Harmonizando Sonhos, Criando Horizontes Musicais!</h3>
+                <p> Descubra o Propósito da Fundação Octeto Manrique: Harmonizando Sonhos, Criando Horizontes Musicais!</p>
             </div>
             <div id="about">
                 <h3> Onde talento encontra apoio, a música ganha asas para voar!</h3>

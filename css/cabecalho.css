@@ -1,52 +1,57 @@
-.cabecalho{
-    align-items: center;
-    text-align: center;
-    font-size: 0.7rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.23em;
 
+.menuzao{
     background-color: #73162F; 
-    color: white;
-    height: 10vw;
 }
-
-.cabecalho_logo {
-    padding: 1.5em 0;
-    width: 14.5em;
-}
-
 .cabecalho_menu{
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
-    background-color: #272B3A87;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
 }
 
-.cabecalho_item-menu{
-    display: inline-block;
- }
-
-.cabecalho_item-menu a{
-    display: inline-block;
-    padding: 1.86em 1.42em;
+.nav-links a{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
 }
 
-@media (min-width: 640px){
-    .cabecalho{
-        padding: 0 5%;
-        display: flex;
-        justify-content: space-between;
-        align-content: center;
-    }
-
-    .cabecalho_logo{
-        max-width: 70px;
-        padding: 1em 0;
-    }
-    .cabecalho_menu {
-        background-color: transparent;
-        padding: 25px;
-    }
+.cabecalho_logo{
+    height: 5vw;
 }
+.menu{
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+   /* MENU SUSPENSO */
+.services {
+    position: relative; 
+}
+.dropdown {
+    background-color: rgb(172, 38, 83);
+    padding: 1em 0;
+    position: absolute; /*COM RELAÇÃO AOS PAIS*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+}
+.dropdown li + li {
+    margin-top: 10px;
+}
+.dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+}
+.dropdown li:hover {
+    background-color: #093b04;
+}
+.services:hover .dropdown {
+    display: block;
+}
+

@@ -12,7 +12,6 @@
 .conteudo-principal #about {
     letter-spacing: 2px;
     width: 90vw;
-    
 }
 .conteudo-principal #about h3 {
     margin-top: 2vw;
@@ -23,12 +22,31 @@
 .conteudo-principal p{
     line-height:1.5rem;
     padding-bottom: 25px;
+    
 }
 .conteudo-principal-titulo{
     text-align: center;
 } 
 .conteudo-principal-titulo h1{
     font-weight: bold;
-    font-size: 8vw;
-    margin-bottom: 15px;
+    font-size: 5vw;
+    margin-bottom: 1%;
+}
+
+.conteudo-principal-titulo  p{
+    font-size: 1vw;
+}
+
+@media (max-width: 900px){
+    .conteudo-principal #about {
+        font-size: 4vw;
+    }
+    .conteudo-principal-titulo h1{
+        font-size: 6vw;
+
+    }
+    
+    .conteudo-principal-titulo  p{
+        font-size: 4vw;
+    }
 }
