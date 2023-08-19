@@ -1,12 +1,14 @@
 .cabecalho{
+    align-items: center;
     text-align: center;
     font-size: 0.7rem;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.23em;
 
-    background-color: #000f93; 
+    background-color: #73162F; 
     color: white;
+    height: 10vw;
 }
 
 .cabecalho_logo {
