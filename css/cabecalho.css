@@ -16,8 +16,8 @@
     font-size: 25px;
 }
 
-.cabecalho_logo{
-    height: 10vw;
+.logo{
+    font-size: 18px;
 }
 .menu{
     display: flex;
