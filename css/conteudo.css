@@ -1,0 +1,34 @@
+.conteudo{
+    margin-bottom: 40px;
+}
+.conteudo-principal{
+    padding: 5vw 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 24px;    
+    margin-top: 48px;
+}
+.conteudo-principal #about {
+    letter-spacing: 2px;
+    width: 90vw;
+    
+}
+.conteudo-principal #about h3 {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-weight: bold;
+    
+}
+.conteudo-principal p{
+    line-height:1.5rem;
+    padding-bottom: 25px;
+}
+.conteudo-principal-titulo{
+    text-align: center;
+} 
+.conteudo-principal-titulo h1{
+    font-weight: bold;
+    font-size: 8vw;
+    margin-bottom: 15px;
+}
