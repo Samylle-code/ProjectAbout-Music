@@ -13,31 +13,31 @@
         url("../img/fundo.JPG");
         background-position: center;
         background-size: cover;
-        height: 85vh;
+        height: 100vh;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: flex-end;
         color: var(--text-color);
-        
 
 }
 
 #descriptionpg{
-
-    text-align: left;
+    margin-top: 10vw;;
+    margin-left: 10vw;
+    align-content: left;
     max-width: 900px;
-
     
 }
 
 #descriptionpg h3{
-    font-size: 70px;
-    font-weight: 500;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 15px;
     
 }
  #descriptionpg p{
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
  @media (max-width: 900px){

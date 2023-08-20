@@ -39,6 +39,7 @@ footer{
 
 .btn{
     background-color: #093b04;
+    border-radius: 30px;
     text-align: center;
     padding: 20px;
     color: white;
