@@ -1,23 +1,25 @@
 
 .menuzao{
     background-color: #73162F; 
+    
 }
 .cabecalho_menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    
+    height: 9vw;
 }
 
 .nav-links a{
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .logo{
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 800;
     color: White; 
 }
 .menu{
@@ -69,7 +71,13 @@ input[type=checkbox]{
    }
    /* APLICAÇÃO MEDIA QUERIES */
    @media (max-width: 768px) {
+    .cabecalho_menu{
+    height: 20vw;
+    align-items: center;
+    justify-content: space-between;
+    }
    .menu { 
+    
     display:none;
     position: absolute;
     background-color:teal;

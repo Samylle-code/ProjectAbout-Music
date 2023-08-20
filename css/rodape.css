@@ -1,3 +1,52 @@
-#imgicon {
-    width: 40px;
+
+footer{
+    background-color: #73162F;
+    height: max-content;
+    color: white;
+}
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.text-center{
+    padding: 2vw;
+    text-align: center;
+}
+.text-center p{
+ font-weight: lighter;
+}
+.copyright{
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+
+.redes-sociais{
+    flex-direction: row;
+}
+#imgicon{
+    width: 20px;
+}
+.footer-col ul li a{
+    font-weight: lighter;
+}    
+.footer-col{
+    margin-top: 20px;
+}
+
+.btn{
+    background-color: #093b04;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+@media (max-width: 768px) {
+    .rodape{
+        display:block;
+    }
+
+    
 }
