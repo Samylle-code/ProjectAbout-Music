@@ -2,7 +2,7 @@
     margin-bottom: 40px;
 }
 .conteudo-principal{
-    transition: all 0.5s ease;
+    
     padding: 5vw 5vw;
     display: flex;
     flex-direction: column;
@@ -11,6 +11,7 @@
     margin-top: 48px;
 }
 .conteudo-principal #about {
+    transition: all 0.5s ease;
     letter-spacing: 2px;
     width: 90vw;
 }
