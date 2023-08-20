@@ -46,9 +46,9 @@
     }
     #descriptionpg h3{
         font-size: 40px;
-        text-align: center;
+        text-align: left;
     }
      #descriptionpg p{
-        font-size: 25px; 
+        font-size: 20px; 
     }
 }
